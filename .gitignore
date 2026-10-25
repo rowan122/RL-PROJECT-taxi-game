@@ -1,0 +1,27 @@
+# Virtual environments
+venv/
+.venv/
+env/
+# Python cache / build
+__pycache__/
+*.py[cod]
+build/
+dist/
+*.egg-info/
+.ipynb_checkpoints/
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+secrets.*
+credentials*.json
+# IDE / OS
+.vscode/
+.idea/
+.vs/
+.DS_Store
+Thumbs.db
+~$*
+# Experiment tracking
+mlruns/
